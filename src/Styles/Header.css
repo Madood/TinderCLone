@@ -1,0 +1,17 @@
+.Header{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #f9f9f9;
+        align-items: center;
+        text-align: center;
+        position: relative;
+}
+.header_img{
+        width: 50px;
+        object-fit: contain;
+        height: 40px;
+}
+
+.header_icon{
+        margin: 10px;
+}

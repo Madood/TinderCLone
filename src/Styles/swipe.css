@@ -1,0 +1,49 @@
+.swipe-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        position: fixed;
+        bottom: 10vh;
+        width: 100%;
+        padding: 10px;
+        max-width: 85vw;
+        border-radius: 20px;
+        /* box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3); */
+        
+}
+.Container{
+       display: flex;
+       justify-content: center;
+}
+.swipe-button {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
+}
+
+.swipe-button:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.swipe-left {
+        color: #f5b748;
+}
+
+.swipe-up {
+        color: #ec5e6f;
+}
+
+.swipe-down {
+       color: #62b4f9;
+}
+
+.swipe-right {
+       color: #76e2b3;
+}
+.swipe-lightening{
+        color: #915dd1;
+}
